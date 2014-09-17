@@ -1,0 +1,196 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+
+body {
+  background: #eae6dc;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#content {
+  max-width: 43.25rem;
+  margin: 7rem auto 5rem;
+}
+
+body {
+  font-family: 'Sirba', Georgia;
+  line-height: 1.625;
+  font-size: 1.125rem;
+  color: #292425;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-family:'FreightSans';
+  font-weight: 900;
+  font-size: 4.75rem;
+  margin: 0 0 1.75rem;
+  line-height: .875;
+}
+
+h2 {
+  font-family: 'FreightSans';
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 3rem 0 1.25rem;
+  line-height: 1.1;
+}
+
+h3 {
+  font-family:'FreightSans';
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 3.5rem 0 1.125rem;
+  line-height: 1.3;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+h4 {
+  font-family:'FreightSans';
+  font-size: 1.3125rem;
+  font-weight: 900;
+  margin: 2.75rem 0 .5rem;
+  line-height: 1.2;
+}
+
+
+h5, h6  {
+  font-family:'Sirba';
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 2.75rem 0 .5rem;
+  line-height: 1.2;
+}
+
+
+ul, ol {
+  margin: 1.5rem 1.75rem 2.25rem;
+  line-height: 1.5;
+}
+
+li {
+  margin-bottom: 1.25rem;
+  padding-left:  .25rem ;
+}
+
+
+hr {
+  display: block;
+  height: 1px;
+    border: 0;
+    border-top: 1px solid #666;
+    margin: 1.5rem 0 2.5rem;
+    padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: 'FreightSans';
+  font-size: 1rem;
+  line-height: 1.3;
+  width:115%;
+  margin: 1rem 0 3rem;
+}
+
+th {
+  font-family: 'Sirba';
+  font-weight: bold;
+  padding: .625rem .875rem;
+  border: solid 1px rgba(31,36,37, 0.1);
+  background: rgba(31,36,37, 0.05);
+  text-align: left;
+
+
+}
+
+td {
+  padding: .625rem .875rem;
+  border: solid 1px rgba(31,36,37, 0.1);
+}
+
+
+blockquote {
+  width:115%;
+  margin: 3rem 0 3rem 0;
+  padding: 2rem 0;
+  font-size: 2.25rem;
+  font-family: 'FreightSans';
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.4;
+  margin-left: -2rem;
+  letter-spacing: 1px;
+  border-top: solid 2px rgba(31,36,37, 0.1);
+  border-bottom: solid 2px rgba(31,36,37, 0.1);
+}
+
+a:link {
+  color: #292425;
+  text-decoration: none;
+  border-bottom: solid 1px #e0850f;
+}
+
+a:visited {
+  color: #685e60;
+  text-decoration: none;
+  border-bottom: solid 1px #e3b171;
+
+}
+
+a:hover, a:active {
+  color: #e0850f;
+  text-decoration: none;
+  border-bottom: solid 1px #e0850f;
+}
